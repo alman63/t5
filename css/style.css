@@ -1,0 +1,29 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+button {
+  padding: 3px;
+  margin: 5px;
+}
+
+.done {
+  color: green;
+  text-decoration: line-through;
+}
+.undone {
+  color: red;
+}
+
+.li {
+  position: relative;
+}
+.input_h {
+  position: absolute;
+  left: 70px;
+}
+.hidden {
+  display: none;
+}
